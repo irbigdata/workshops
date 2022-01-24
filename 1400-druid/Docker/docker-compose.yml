@@ -24,7 +24,6 @@ services:
       - 8000:8080
     links:
       - kafka
-      - schema-registry
     networks:
       - services
 

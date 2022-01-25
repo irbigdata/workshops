@@ -11,7 +11,7 @@ you can use official `Druid` docker image to build your own customized version. 
   - `docker-compose up -d`
   - **Kafka HQ UI** : `http://localhost:8000`
   
-  - this file will start a `postgres` node . 
+  - add `127.0.0.1 kafka`  line to [hosts](https://mag.hostiran.net/modify-your-hosts-file/) file.
 
 ####  2- Start Druid 
 
